@@ -12,6 +12,7 @@ $(document).ready(function(){
         }
     });
 
+
         $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop: 0});
                $('html').css("scrollBehavior", "auto");
